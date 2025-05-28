@@ -1,0 +1,119 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8; /* Un fondo claro y suave */
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #8B4513; /* Marrón Silla de Montar para los encabezados */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        marquee h1 {
+            color: #A0522D; /* Siena para el texto del marquee */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; /* Centrar la lista de navegación */
+        }
+
+        ul li {
+            background-color: #D2B48C; /* Bronceado para los elementos de la lista */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block; /* Hacer que los elementos de la lista se muestren uno al lado del otro */
+            margin-right: 10px; /* Agregar un poco de espacio entre los elementos de la lista */
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+            padding: 0 15%; /* Añadir relleno a los párrafos para una mejor legibilidad */
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table, th, td {
+            border: 1px solid #D2B48C; /* Borde bronceado para la tabla */
+        }
+
+        th {
+            background-color: #8B4513; /* Marrón Silla de Montar para los encabezados de la tabla */
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            background-color: #F5DEB3; /* Trigo para las celdas de la tabla */
+            padding: 8px;
+        }
+
+        img, video {
+            max-width: 100%; /* Hacer que las imágenes y videos sean responsivos */
+            height: auto;
+            display: block; /* Eliminar espacio extra debajo de las imágenes */
+            margin: 10px auto; /* Centrar imágenes y videos */
+            border: 2px solid #D2B48C; /* Borde bronceado para los medios */
+            border-radius: 8px; /* Esquinas ligeramente redondeadas */
+        }
+
+        .descripcion {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        .video-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        audio {
+            display: block;
+            margin: 15px auto;
+            width: 80%;
+        }
+
+        .redes-sociales {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .redes-sociales a {
+            display: inline-block;
+            background-color: #A0522D; /* Siena para los botones de redes sociales */
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .redes-sociales a:hover {
+            background-color: #CD853F; /* Perú al pasar el ratón */
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #8B4513; /* Marrón Silla de Montar para el pie de página */
+            color: white;
+            font-size: 0.9em;
+            border-radius: 5px;
+        }
